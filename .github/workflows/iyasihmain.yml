@@ -12,9 +12,9 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://drive.google.com/uc?id=1SqMUE8nOzpQ32xD1LsRUTAcH8mbpvOzJ -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/changerbitti1994/sepertinyasih/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/AzkaIbtisama/Dua/main/wallpaper.jpg -OutFile wallpaper.jpg
-        Invoke-WebRequest https://raw.githubusercontent.com/AzkaIbtisama/Dua/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/changerbitti1994/sepertinyasih/main/start.bat -OutFile start.bat        
+        Invoke-WebRequest https://drive.google.com/uc?id=18-VZLu31bXTivkwf-a-E1S3v_FOVJzM9 -OutFile wallpaper.jpg
+        Invoke-WebRequest https://drive.google.com/uc?id=1jqm19BxJkB7UGJ-DWDOkhhN75vJWDnxY -OutFile wallpaper.bat
     - name: Mengekstrasi berkas Ngrok.
       run: Expand-Archive ngrok.zip
     - name: Terhubung Ke Akun Ngrok.
