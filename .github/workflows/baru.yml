@@ -1,4 +1,4 @@
-name: PConline
+name: JustRun
 
 on: workflow_dispatch
 
